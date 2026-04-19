@@ -62,3 +62,35 @@ footer {
     padding: 30px;
     opacity: 0.6;
 }
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
